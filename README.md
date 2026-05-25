@@ -26,6 +26,58 @@ Custom [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skills for 
 >
 > Claude Code's strength is fast, fluid execution; Codex (GPT-5.4 xhigh) is slower but more deliberate and rigorous in critique. These complementary styles — **speed × rigor** — produce better outcomes than either model talking to itself.
 
+
+---
+
+## CONCEPTS
+
+| Concept | Description |
+|---|---|
+| **Research** | Core concept — primary building block of Auto claude code research in sleep |
+| **Sleep** | Execution primitive handling sleep operations |
+| **Background** | Integration layer for background connectivity |
+| **Agent** | Configuration and routing for agent behavior |
+| **Claude Code** | Anthropic CLI — agentic coding and task execution |
+| **MCP** | Model Context Protocol — tool exposure standard |
+| **Skill** | Self-contained Claude Code capability module |
+| **Tier-0** | Free model routing: Groq → Ollama → DeepSeek |
+| **Context Window** | Token budget per session — managed via compression |
+| **Async Agent** | Background task agent — non-blocking parallel execution |
+
+---
+
+## 🔥 Hot Commands
+
+```bash
+# Clone and explore
+gh repo clone hmzainjamil/Auto-claude-code-research-in-sleep
+cd Auto-claude-code-research-in-sleep
+
+# Load as Claude Code skill
+cp -r . ~/.claude/skills/Auto-claude-code-research-in-sleep/
+
+# Run via MAE pipeline
+mae run "Auto claude code research in sleep - primary workflow"
+
+# Quick invoke via Claude
+claude -p "using research capabilities: run main workflow"
+```
+
+## ■ tip
+> **Route sub-tasks to Tier-0 first** (Groq/Ollama) — saves Claude quota for synthesis only. Use `mae run` to auto-decompose complex tasks.
+
+---
+
+## ☠️ STARTUPS / BUSINESSES
+
+- **Digital agencies** — deploy as client delivery multiplier, 10× throughput
+- **SaaS founders** — integrate into existing Claude Code stack, zero infra overhead
+- **AI engineers** — fork and extend with custom domain logic
+- **Freelancers** — use as billable-hours accelerator for research + sleep work
+
+---
+
+
 ## 🎯 More Than Just a Prompt
 
 > These are full pipelines — you can also use each workflow independently. Already have an idea? Skip to Workflow 1.5. Have results? Jump to Workflow 3. Got reviews? Jump to Workflow 4. See [Quick Start](#-quick-start) for all commands and [Workflows](#-workflows) for the full breakdown.
