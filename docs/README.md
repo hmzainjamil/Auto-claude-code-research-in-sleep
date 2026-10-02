@@ -6,6 +6,8 @@ Repository map for the research workflow toolkit. Verify dates and provider beha
 |---|---|---|
 | Overview | [English README](../README.md), [中文 README](../README_CN.md) | Repository purpose, evidence, data boundary |
 | Skills | [Skill folders](../skills/) | Each `SKILL.md` defines its own instructions and dependencies |
+| Skill package guides | [Codex-native skills](../skills/skills-codex/README.md), [Codex + Claude review](../skills/skills-codex-claude-review/README.md), [Codex + Gemini review](../skills/skills-codex-gemini-review/README.md) | Package-specific installation guidance; review provider prerequisites and data boundaries |
+| Skill package guides (中文) | [Codex native](../skills/skills-codex/README_CN.md), [Codex + Claude review](../skills/skills-codex-claude-review/README_CN.md), [Codex + Gemini review](../skills/skills-codex-gemini-review/README_CN.md) | Chinese package guidance; keep aligned with the corresponding English README |
 | Literature tools | [arXiv helper](../tools/arxiv_fetch.py), [Semantic Scholar helper](../tools/semantic_scholar_fetch.py) | Python source; inspect before use |
 | Monitoring | [Watchdog source](../tools/watchdog.py), [watchdog guide](WATCHDOG_GUIDE.md) | Server task/GPU monitoring |
 | MCP review | [Claude review](../mcp-servers/claude-review/README.md), [Gemini review](../mcp-servers/gemini-review/README.md) | Provider-specific setup and review bridges |
